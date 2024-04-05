@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio TICE</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+
+    .logo {
+      height: 60px; /* Adjust the height of the logo */
+    }
+    .navbar-custom {
+	  border:none;
+	  background: rgba(255, 255, 255, 0.5); /* Set hover color with some opacity */
+	  
+	  box-shadow: 0 0 20px rgba(182, 102, 0, 0.5); 
+    }
+	.big-title {
+      font-size: 4rem; /* Adjust the font size of the big title */
+      margin-top: 80px; /* Adjust the margin-top as needed */
+      text-align: center;
+      padding: 80px; /* Padding for the title */
+	  color:#fff;
+	  text-shadow: 2px 2px 4px black;
+    }
+	.big-title-2 {
+      font-size: 4rem; /* Adjust the font size of the big title */
+      margin-top: 10px; /* Adjust the margin-top as needed */
+      text-align: center;
+      padding: 80px; /* Padding for the title */
+	  color:#000;
+	  text-shadow: 2px 2px 4px black;
+    }
+	.big-title-container{
+		background-image: url('img/3.jpg');
+		background-size: cover;
+		box-shadow: 0 0 20px rgba(182, 102, 0, 0.5); 
+	}
+	/* Custom styles */
+    .circle-container {
+      position: relative; /* Make the container relative */
+      width: 300px; /* Adjust circle diameter */
+      height: 300px; /* Adjust circle diameter */
+      margin:40px auto; /* Center the container */
+    }
+    .circle {
+      width: 100%; /* Adjust circle diameter */
+      height: 100%; /* Adjust circle diameter */
+      border-radius: 50%; /* Make it a circle */
+      background-color: #d2deff; /* Background color */
+      border: 10px solid white; /* Border color and width */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+      display: flex; /* Use flexbox */
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      overflow: hidden; /* Hide overflowing content */
+    }
+    .circle img {
+      max-width: 80%; /* Limit image width */
+      max-height: 80%; /* Limit image height */
+    }
+    .bottom-div {
+      position: absolute; /* Position the div absolutely */
+      bottom: -30px; /* Adjust the distance from the bottom */
+      width: 100%; /* Adjust the width */
+      text-align: center; /* Center text horizontally */
+	  background:#b044a1;
+	  border-radius:40px;
+	  text-align:center;
+	  color:#fff;
+	  font-size:20px;
+	  padding:20px;
+	  height:70px;
+    }
+	
+	.circle-container:hover {
+      transform: scale(1.1); /* Scale up on hover */
+	  cursor:pointer;
+    }
+	
+	/* Custom styles */
+    footer {
+      background-color: #333; /* Background color of the footer */
+      color: white; /* Text color */
+      padding: 20px; /* Padding inside the footer */
+      text-align: center; /* Center align text */
+      width: 100%; /* Full width */
+      bottom: 0; /* Stick to the bottom */
+    }
+
+  </style>
+</head>
+<body>
+
+
+
+
+<!-- Big Title -->
+<div class="container-fluid border big-title-container">
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+	  <div class="container">
+		<!-- Add other navigation items here if needed -->
+		<a class="navbar-brand ml-auto" href="#">
+		  <img src="img/logo.jpg" alt="Logo" class="logo border">
+		</a>
+	  </div>
+	</nav>
+
+	  <div class="row">
+		<div class="col-md-12">
+		  <h1 class="big-title">Portfolio TICE</h1>
+		</div>
+	  </div>
+</div>
+
+
+
+
+<!-- Content -->
+<div class="container mt-5">
+  <div class="row ">
+    <!-- First Row -->
+    <div class="col-md-4">
+	<a href="data/pptx/extensions.pptx" target="_blank">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/extension.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>File Extensions</p>
+        </div>
+      </div>
+	  </a>
+    </div>
+    <div class="col-md-4">
+		<a href="data/images/image.jpg" target="_blank">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/2620449.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Word Mapping</p>
+        </div>
+		</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+	<a href="data/video/video.mp4" target="_blank">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/sport.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Sports Vocabulary</p>
+        </div>
+      </div>
+	  </a>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <!-- Second Row -->
+    <div class="col-md-4">
+	<a href="data/pptx/tools.pptx" target="_blank">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/tools.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Digital tools</p>
+        </div>
+      </div>
+	  </a>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<br><br><br>
+
+
+
+
+<!-- Big Title -->
+<div class="container-fluid border">
+	  <div class="row">
+		<div class="col-md-12">
+		  <h1 class="big-title-2">Exercices</h1>
+		</div>
+	  </div>
+</div>
+
+
+
+<!-- Content -->
+<div class="container mt-5">
+  <div class="row ">
+    <!-- First Row -->
+    <div class="col-md-4">
+	<a target="_blank" href="exercices/JMIx.htm" class="circle-container">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/sentence.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Sentence unscramble</p>
+        </div>
+      </div>
+	  </a>
+    </div>
+    <div class="col-md-4">
+	<a target="_blank" href="exercices/JMatch.htm" class="circle-container">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/football.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Football vocabulary</p>
+        </div>
+      </div>
+	 </a>
+    </div>
+    <div class="col-md-4">
+	<a target="_blank" href="exercices/JQuiz.htm" class="circle-container">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/place.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Preposition of place</p>
+        </div>
+      </div>
+	  </a>
+    </div>
+	
+  </div>
+  <div class="row mt-4">
+    <!-- Second Row -->
+    <div class="col-md-4">
+	<a target="_blank" href="exercices/JCross.htm" class="circle-container">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/crossword.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Crossword</p>
+        </div>
+      </div>
+	  </a>
+    </div>
+	
+	
+	<!-- Second Row -->
+    <div class="col-md-4">
+	<a target="_blank" href="exercices/JCloze.htm" class="circle-container">
+      <div class="circle-container">
+        <div class="circle">
+          <img src="img/healthcare.png" alt="Image">
+        </div>
+        <div class="bottom-div">
+          <p>Health Vocabulary</p>
+        </div>
+      </div>
+	  </a>
+    </div>
+    
+
+    
+    
+  </div>
+  
+</div>
+
+
+<br><br><br><br>
+<br><br><br><br>
+
+
+
+<footer>
+  <p>&copy; created By Hamza Lakrik, Mehdi Karim, Chakib Haddati, Zouhayr Essalhi, Ilyas Tadili, Yassine Hajjaji.</p>
+</footer>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
